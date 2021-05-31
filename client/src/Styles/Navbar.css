@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333333;
+}
+
+.site-title {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 4px;
+ 
+}
+
+.end-nav-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login-btn {
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  padding: 6px 12px 6px 12px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.signup-btn {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #fff;
+  background-color: #333333;
+  color: #fff;
+  margin-left: 1rem;
+  padding: 6px 12px 6px 12px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.signup-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.profile-avatar {
+  text-decoration: none;
+  margin-left: 1rem;
+}
